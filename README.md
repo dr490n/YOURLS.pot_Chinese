@@ -13,11 +13,11 @@ YOURLS Ver.1.7+ 繁體中文語言包
 2. 下載本繁體中文語言包，將 `zh_Hant/zh_Hant.po` 和 `zh_Hant/zh_Hant.mo` 兩個文件複製到 YOURLS 安裝路徑下的 `user/languages` 資料夾中。
 3. 修改 `user/config.php` 文件，在文件中找到以下程式：
 
-    define( 'YOURLS_LANG', '' );
+	define( 'YOURLS_LANG', '' );
 
 將其修改為：
 
-    define( 'YOURLS_LANG', 'zh_Hant' );
+	define( 'YOURLS_LANG', 'zh_Hant' );
 
 記住保存哦！
 
