@@ -10,14 +10,16 @@ YOURLS Ver.1.7+ 繁體中文語言包
 ## 語言包使用方法
 
 1. 訪問 [YOURLS 官方網站][2]或者此項目的 [Github源][3] 下載最新版本的YOURLS程式。
-2. 下載本繁體中文語言包，將 `zh_Hant/zh_Hant.po` 和 `zh_Hant/zh_Hant.mo` 兩個文件複製到 YOURLS 安裝路徑下的 `user/languages` 資料夾中。
+2. 下載本繁體中文語言包，將 `zh_Hant.po` 和 `zh_Hant.mo` 兩個文件複製到 YOURLS 安裝路徑下的 `user/languages` 資料夾中。
 3. 修改 `user/config.php` 文件，在文件中找到以下程式：
 
-    define( 'YOURLS_LANG', '' );
+	// ...
+	define( 'YOURLS_LANG', '' );
+	// ...
 
 將其修改為：
 
-    define( 'YOURLS_LANG', 'zh_Hant' );
+	define( 'YOURLS_LANG', 'zh_Hant' );
 
 記住保存哦！
 
